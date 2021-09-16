@@ -1,0 +1,12 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_users
+    username: root
+    password: 1234
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: io.hs.entity
+my:
+  baseurl: 123
